@@ -7,11 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project.DAL.Repositories.Concrete
+namespace Project.DAL.Repositories.Concretes
 {
-    public class AppUserProfileRepository:BaseRepository<AppUserProfile>,IAppUserProfileRepository
+    public class OrderDetailRepository:BaseRepository<OrderDetail>,IOrderDetailRepository
     {
-        public AppUserProfileRepository(MyContext db) : base (db)
+        public OrderDetailRepository(MyContext db) :base(db)
         {
             
         }

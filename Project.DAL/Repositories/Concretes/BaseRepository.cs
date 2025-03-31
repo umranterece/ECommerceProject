@@ -9,7 +9,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project.DAL.Repositories.Concrete
+namespace Project.DAL.Repositories.Concretes
 {
     public class BaseRepository<T> : IRepository<T> where T : class, IEntity
     {

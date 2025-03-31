@@ -7,11 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project.DAL.Repositories.Concrete
+namespace Project.DAL.Repositories.Concretes
 {
-    public class AppUserRepository:BaseRepository<AppUser>,IAppUserRepository
+    public class CategoryRepository:BaseRepository<Category>,ICategoryRepository
     {
-        public AppUserRepository(MyContext db):base (db)
+        public CategoryRepository(MyContext db):base(db) 
         {
             
         }
